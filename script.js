@@ -120,7 +120,6 @@ function loadQuiz() {
         answerD.innerText = currentQuizData.d;
 
     } else {
-        console.log('cheguei aqui!');
         ansewrsList.style.display = 'none';
 
         const h3 = document.createElement('h3');
